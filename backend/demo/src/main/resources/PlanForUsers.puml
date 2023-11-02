@@ -1,0 +1,21 @@
+@startuml
+class User{
+-id
+-picture:img
+-username:String
+-password:String
+-email:String
+-rating:double
+-products: List<Product>
+}
+
+class Product{
+-id
+-price:double
+-description:String
+-name:String
+-timeOfPosting:Date
+-idOfUser
+-photos
+}
+@enduml

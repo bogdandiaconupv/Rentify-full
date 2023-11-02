@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+}
+
+
+@font-face {
+    font-family: 'Buck';
+    src: url('../public/fonts/BukhariScript-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'nexa';
+    src: url('../public/fonts/NexaScriptDemo-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'champ';
+    src: url('../public/fonts/Champion.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'boom';
+    src: url('../public/fonts/Boom.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/* main  */
+
+
